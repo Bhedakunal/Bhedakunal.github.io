@@ -11,37 +11,85 @@
 
   <div class="scroll-bg"></div>
 
+  
   <section class="hero section">
     <div class="hero-content">
-      <h1>Kunal Bheda</h1>
-      <p>Illustrator • Digital Artist • Storyteller</p>
+      <h1 class="reveal">Kunal Bheda</h1>
+      <p class="subtitle reveal">Illustrator • Digital Artist • Storyteller</p>
     </div>
   </section>
+
+  <section class="wall section">
+  <div class="wall-wrapper">
+    <h2 class="reveal">Wall of Fame</h2>
+    <p class="wall-subtitle reveal">A curated selection of featured artworks & commissioned pieces</p>
+
+    <div class="carousel reveal">
+      <button class="nav prev">‹</button>
+
+      <div class="carousel-track">
+        <img src="assets/images/art1.jpg" alt="Artwork 1">
+        <img src="assets/images/art2.jpg" alt="Artwork 2">
+        <img src="assets/images/art3.jpg" alt="Artwork 3">
+        <img src="assets/images/art4.jpg" alt="Artwork 4">
+      </div>
+
+      <button class="nav next">›</button>
+    </div>
+  </div>
+</section>
+
 
   <section class="about section">
-    <div class="about-wrapper">
-      <img src="assets/images/about-art.jpg" alt="Artwork">
-      <div>
-        <h2>About Me</h2>
-        <p>
-          I’m Kunal Bheda, a visual artist inspired by light, urban stories,
-          and flowing motion. My work blends digital illustration with mood-driven
-          storytelling — creating emotional and immersive artwork.
-          My vision is to build worlds where art and imagination meet.
-        </p>
-      </div>
+  <div class="about-wrapper">
+
+    <!-- IMAGE: slides in from the LEFT on scroll -->
+    <img 
+      src="assets/images/about-art.jpg" 
+      alt="Artwork" 
+      class="reveal-left reveal-img"
+    >
+
+    <!-- TEXT: slides in from the RIGHT on scroll -->
+    <div class="about-text reveal-right">
+      <h2>About Me</h2>
+      <p>
+        I’m Kunal Bheda, a visual artist inspired by light, urban stories,
+        and flowing motion. My work blends digital illustration with mood-driven
+        storytelling — creating emotional and immersive artwork.
+        My vision is to build worlds where art and imagination meet.
+      </p>
     </div>
-  </section>
+
+  </div>
+</section>
+
 
   <section class="contact section">
-    <h2>Let’s Work Together</h2>
-    <p>Available for freelance & collaborations</p>
-    <div class="social-links">
-      <a href="https://www.instagram.com/arts.dbz/">Instagram</a>
-      <a href="mailto:bhedakunal1@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/kunal-bheda-020640208/?originalSubdomain=in">LinkedIn</a>
+  <div class="contact-wrapper">
+    <h2 class="reveal">Let’s Work Together</h2>
+    <p class="contact-subtitle reveal">
+      Available for freelance work, collaborations & creative projects
+    </p>
+
+    <div class="contact-grid reveal">
+      <a href="https://www.instagram.com/arts.dbz/" class="contact-card">
+        <span class="label">Instagram</span>
+        <span class="value">@arts.dbz</span>
+      </a>
+
+      <a href="mailto:bhedakunal1@gmail.com" class="contact-card">
+        <span class="label">Email</span>
+        <span class="value">bhedakunal1@gmail.com</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/kunal-bheda-020640208/?originalSubdomain=in" class="contact-card">
+        <span class="label">LinkedIn</span>
+        <span class="value">Kunal Bheda</span>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
   <script src="script.js"></script>
 </body>
